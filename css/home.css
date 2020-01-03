@@ -1,0 +1,60 @@
+body{
+background-image: url('../img/horizon.png');
+background-repeat: no-repeat;
+background-position: center 100px;
+}
+#overlay{
+height: 330px;
+}
+
+#container {
+max-width:940px;
+background-color: white;
+height: 100%;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 20px;
+}
+
+#container  p{
+padding-top:40px;
+padding-left:35px;
+padding-right:35px;
+font-family: "merriweather_bold", Times, serif;
+margin-top:12px;
+text-align: justify;
+}
+
+
+#main-container {
+background-color:red;
+height:500px;
+margin-top:5px;
+
+}
+
+
+
+#overlay .content {
+height:135px;
+float: left;
+margin-top: 150px;
+margin-left: -10px;
+
+}
+
+#overlay .content ul {
+font-family: "museo_slab500", Times, serif;
+list-style-image: url('../img/bullet.png');
+margin-left:50px;
+margin-top:15px;
+
+}
+
+
+#overlay .bar {
+
+float: left;
+margin-left: 75px;
+
+}

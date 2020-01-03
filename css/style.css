@@ -1,0 +1,174 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+body {
+	background-color: #aea284;
+}
+#top {
+	background-position: center 100px;
+	background-repeat: no-repeat;
+}
+
+#header {
+	background-color:white;
+	width: 100%;
+	height: 100px;
+	display:block;
+	box-shadow: 0px 2px 9px #020202;
+	position:fixed;
+	top:0;
+	z-index: 5;
+}
+#head-container {
+	height:75px;
+	width:100%;
+	max-width: 960px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:12px;
+	padding-bottom:13px;
+
+}
+h1,h2{
+display:none;
+}
+
+#logo{
+height:75px;
+width: 660px;
+background-image:url('../img/logo.png');
+background-position: center;
+background-repeat: no-repeat;
+padding-left:150px;
+padding-right:150px;
+}
+
+
+
+
+/** NAVGATION **/
+#nav{
+	height:35px;
+	width:100%;
+	position: fixed;
+	top:100px;
+	margin-top: 7px;
+	z-index: 4;
+
+} 
+
+#menu { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0;
+	text-align: center;
+	position:relative;
+	margin-left: 175px;
+}
+#menu li { display: inline; height:35px;}
+#menu li a { text-decoration: none; padding: .2em 1em; color:#ffffff;height:35px;
+background-image: url('../img/bouton.png'); font-size: 16pt;font-family: "museo_slab500", Times, serif;}
+
+#menu li a:hover {border-bottom: solid black 2px;}
+
+
+
+
+#overlay{
+width:100%
+max-width:960px;
+margin-left:auto;
+margin-right:auto;
+}
+
+
+
+iframe {
+border: 0;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+
+#footer {
+width:100%;
+height:80px;
+background-color:#b7bb9f;
+box-shadow: 0px 2px 9px #020202;
+position:fixed;
+bottom:0;
+text-align: center;
+}
+#footer p{
+color:#636940;
+font-family: 'merriweather_bold', Times, serif;
+margin-top:5px;
+
+}
+
+#footer p.desc{
+font-size:14pt;
+margin-top:20px;
+}
+
+#footer p a {
+color: #636940;
+}
+
+
+
+#fake-footer {
+width:100%;
+height:80px;
+}
+
+#fake-header{
+width:100%;
+height:135px;
+}
+
+@media all and (max-width: 640px) {
+.responsive {
+width:95% !important;
+margin-right:10px !important;
+margin-left:10px !important;
+margin-top:15px !important;
+}
+.responsive div {
+margin-right:0px !important;
+margin-left:0px !important;
+width:100% !important;
+}
+
+#menu {
+margin-left: 0 !important;
+}
+#menu li {
+display:block !important;
+padding-top:10px !important;
+padding-bottom:10px !important;
+
+}
+#menu li  a{
+display:block !important;
+}
+#nav,#header {
+position:relative !important;
+top:0;
+}
+#footer{
+position:relative !important;
+}
+#fake-header, #fake-footer{
+display:none !important
+}
+ #logo {
+	background-position-x:20px !important;
+ }
+
+
+
+}

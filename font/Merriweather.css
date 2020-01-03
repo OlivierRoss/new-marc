@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'merriweather_bold';
+    src: url('Merriweather-Bold.otf');
+    src: url('Merriweather-Bold.otf?#iefix') format('embedded-opentype'),
+    font-weight: normal;
+    font-style: normal;
+
+}
+
